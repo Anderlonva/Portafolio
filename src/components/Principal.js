@@ -29,7 +29,7 @@ export const Principal = () => {
           <div className='row flex-row justify-content-center'>
 
             <div className='col-1 d-inline-flex'>
-              <a href="https://github.com/Anderlonva" className="contenedor-icon-gitHub">
+              <a href="https://github.com/Anderlonva" className="contenedor-icon-gitHub" target="_blank">
               <i class="bi bi-github"></i>
               </a>
             </div>
@@ -38,7 +38,7 @@ export const Principal = () => {
 
             <div className='col-1 d-inline-flex mx-2 mb-2'>
 
-              <a href="https://www.linkedin.com/in/anderson-londono-669094218/" className="contenedor-icon-linkedin">
+              <a href="https://www.linkedin.com/in/anderson-londono-669094218/" className="contenedor-icon-linkedin" target="_blank">
               <i class="bi bi-linkedin"></i>
               </a>
             </div>
