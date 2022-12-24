@@ -9,7 +9,7 @@ export const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
                 <div className="container-fluid">
                     <div className="container-fliud ">
-                        <a className="navbar-brand" href="/principal">
+                        <a className="navbar-brand" href="/">
                         
                             <img src={logo} alt="" width={200} className=''/>
                         </a>
@@ -21,7 +21,7 @@ export const Header = () => {
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                             <li className="nav-item">
                                 <a className="nav-link color-menu" aria-current="page"
-                                href="/principal">Acerca</a>
+                                href="/">Acerca</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link color-menu" aria-current="page" 

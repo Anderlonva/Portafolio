@@ -13,11 +13,10 @@ export const App = () => {
       <Header/>
       <Router>
         <Switch>
-          <Route exact path="/principal" component={Principal} />
+          <Route exact path="/" component={Principal} />
           <Route exact path="/proyectos" component={Proyectos} />
           <Route exact path="/estudios" component={Certificados} />
-
-          
+          <Redirect to='/' />
         </Switch>
       </Router>
     </>
