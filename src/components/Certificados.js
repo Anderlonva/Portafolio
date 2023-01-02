@@ -74,6 +74,11 @@ export const Certificados = () => {
                 <p>Platzi, 2022 </p>
             </div>
 
+            <div className='border mt-2 mb-2'>
+                <h4>Curso Profesional de Git Y GitHub</h4>
+                <p>Platzi, 2023 </p>
+            </div>
+
         </div>
     </div>
     <div className='row'>
