@@ -1,7 +1,10 @@
 import React from 'react'
 
-export const RowCertificados = () => {
+export const RowCertificados = ({ certificado }) => {
   return (
-    <div>RowCertificados</div>
+    <div className='border mt-2 mb-2'>
+      <h4>{certificado.carrera}</h4>
+      <h6>{certificado.universidad}, {certificado.anio}</h6>
+    </div>
   )
 }

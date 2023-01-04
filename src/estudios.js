@@ -9,14 +9,14 @@ const diplomas = [
     {
         "id":"2",
         "universidad": "Politécnico Iberoamericano",
-        "carrera": "Técnico en administración de empresas",
+        "carrera": "Técnico En Administración De Empresas",
         "ciudad": "Medellin",
         "anio": "2010"
     },
     {
         "id":"3",
         "universidad": "Centro De Sistemas De Antioquia, CENSA",
-        "carrera": "Técnico en electrónica digital",
+        "carrera": "Técnico En Electrónica Digital",
         "ciudad": "Bello",
         "anio": "2020"
     }
@@ -25,67 +25,67 @@ const diplomas = [
 
 const certificados = [
     {
-        "id":"",
-        "universidad": "",
-        "carrera": "",
+        "id":"1",
+        "universidad": "Next_U",
+        "carrera": "Certificación Bases De Datos Web",
         "ciudad": "",
-        "anio": ""
+        "anio": "2022"
+    },
+    {
+        "id":"2",
+        "universidad": "Next_U",
+        "carrera": "Certificación En Curso Intensivo Web Front End",
+        "ciudad": "",
+        "anio": "2021"
+    },
+    {
+        "id":"3",
+        "universidad": "Misión Tic, Universidad Sergio Arboleda",
+        "carrera": "Diplomado En Desarrollo De Software",
+        "ciudad": "",
+        "anio": "2022"
+    },
+    {
+        "id":"4",
+        "universidad": "Misión Tic, Universidad Sergio Arboleda",
+        "carrera": "Fundamentos De Programacion Con Python",
+        "ciudad": "",
+        "anio": "2022"
+    },
+    {
+        "id":"5",
+        "universidad": "Misión Tic, Universidad Sergio Arboleda",
+        "carrera": "Programacion Básica Con Java",
+        "ciudad": "",
+        "anio": "2022"
+    },
+    {
+        "id":"6",
+        "universidad": "Platzi",
+        "carrera": "Introducción a React.js",
+        "ciudad": "",
+        "anio": "2022"
+    },
+    {
+        "id":"7",
+        "universidad": "Platzi",
+        "carrera": "Curso Básico De JavaScript",
+        "ciudad": "",
+        "anio": "2022"
+    },
+    {
+        "id":"8",
+        "universidad": "Platzi",
+        "carrera": "Curso De Backend con NodeJs:API REST Con Express",
+        "ciudad": "",
+        "anio": "2022"
     },
     {
         "id":"",
-        "universidad": "",
-        "carrera": "",
+        "universidad": "Platzi",
+        "carrera": "Curso Profesional de Git Y GitHub",
         "ciudad": "",
-        "anio": ""
-    },
-    {
-        "id":"",
-        "universidad": "",
-        "carrera": "",
-        "ciudad": "",
-        "anio": ""
-    },
-    {
-        "id":"",
-        "universidad": "",
-        "carrera": "",
-        "ciudad": "",
-        "anio": ""
-    },
-    {
-        "id":"",
-        "universidad": "",
-        "carrera": "",
-        "ciudad": "",
-        "anio": ""
-    },
-    {
-        "id":"",
-        "universidad": "",
-        "carrera": "",
-        "ciudad": "",
-        "anio": ""
-    },
-    {
-        "id":"",
-        "universidad": "",
-        "carrera": "",
-        "ciudad": "",
-        "anio": ""
-    },
-    {
-        "id":"",
-        "universidad": "",
-        "carrera": "",
-        "ciudad": "",
-        "anio": ""
-    },
-    {
-        "id":"",
-        "universidad": "",
-        "carrera": "",
-        "ciudad": "",
-        "anio": ""
+        "anio": "2023"
     }
 ]
 
