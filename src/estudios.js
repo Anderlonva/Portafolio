@@ -81,7 +81,14 @@ const certificados = [
         "anio": "2022"
     },
     {
-        "id":"",
+        "id":"9",
+        "universidad": "Misión Tic, Universidad Autonoma De Bucaramanga",
+        "carrera": "Diplomado En Desarrollo De Aplicaciones Web",
+        "ciudad": "",
+        "anio": "2022"
+    },
+    {
+        "id":"10",
         "universidad": "Platzi",
         "carrera": "Curso Profesional de Git Y GitHub",
         "ciudad": "",
