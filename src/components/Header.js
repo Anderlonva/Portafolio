@@ -15,7 +15,7 @@ export const Header = () => {
                         </a>
                     </div>
                     <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon "><i className="bi bi-list"></i></span>
+                        <span className="navbar-toggler-icon "></span>
                     </button>
                     <div className="collapse navbar-collapse color-menu" id="navbarSupportedContent" >
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
