@@ -19,7 +19,7 @@ export const Certificados = () => {
    <div className='container margin-container'>
    <div className='row mb-2'>
         <div className='col-lg-6 col-md-6 col-sm-12 text-center mt-3 border mx-1'>
-            <h2 className='mt-1'>Educacion</h2>
+            <h2 className='mt-3'>Educacion</h2>
             
             {
                 arrDiplomas.map( (diploma) => {
@@ -30,7 +30,7 @@ export const Certificados = () => {
         </div>
         
         <div className='col-lg-5 col-md-5 col-sm-12 text-center mt-3 border mx-1'>
-            <h2 className='mt-1'>Certificados</h2>
+            <h2 className='mt-3'>Certificados</h2>
             
             {
                 arrCertificados.map( (certificado) => {
