@@ -13,7 +13,9 @@ export const Principal = () => {
         <div className='col-lg-6 col-md-12 mt-3 text-center'>
           <img src={foto} className="foto-principal" alt="..." />
         </div>
+        
         <div className='col-lg-6 col-md-12 mt-5 text-center'>
+        <hr className='' />
           <div className='row'>
             <div className='col'>
               <p>Actualmente estudiando tecnología en desarrollo de software con formación en bases de datos relacionales, no relacionales y desarrollo web.
