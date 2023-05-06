@@ -19,6 +19,13 @@ const diplomas = [
         "carrera": "Técnico En Electrónica Digital",
         "ciudad": "Bello",
         "anio": "2020"
+    },
+    {
+        "id":"4",
+        "universidad": "Universidad Autónoma De Bucaramanga",
+        "carrera": "Técnico Laboral En Habilidades En Programacion Con Enfasis en Aplicaciones Web",
+        "ciudad": "Mision Tic Virtual",
+        "anio": "2023"
     }
 ]
 
