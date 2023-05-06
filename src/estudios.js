@@ -23,7 +23,7 @@ const diplomas = [
     {
         "id":"4",
         "universidad": "Universidad Autónoma De Bucaramanga",
-        "carrera": "Técnico Laboral En Habilidades En Programacion Con Enfasis en Aplicaciones Web",
+        "carrera": "Técnico Laboral En Habilidades En Programación Con Enfasis en Aplicaciones Web",
         "ciudad": "Mision Tic Virtual",
         "anio": "2023"
     }
