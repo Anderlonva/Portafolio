@@ -1,32 +1,41 @@
 const diplomas = [
     {
         "id":"1",
-        "universidad": "Institución Universitaria Digital De Antioquia",
-        "carrera": "Tecnólogia en Desarrollo de Software",
+        "universidad": "Corporación Universitaria Iberoamericana",
+        "carrera": "Ingeniería De Software",
         "ciudad": "Medellin",
-        "anio": "Actualmente 6 semestre"
+        "anio": "Actualmente 5 semestre"
     },
     {
         "id":"2",
-        "universidad": "Politécnico Iberoamericano",
-        "carrera": "Técnico En Administración De Empresas",
+        "universidad": "Institución Universitaria Digital De Antioquia",
+        "carrera": "Tecnólogia en Desarrollo de Software",
         "ciudad": "Medellin",
-        "anio": "2010"
+        "anio": "2023"
     },
     {
         "id":"3",
+        "universidad": "Universidad Autónoma De Bucaramanga",
+        "carrera": "Técnico Laboral En Habilidades En Programación Con Enfasis en Aplicaciones Web",
+        "ciudad": "Mision Tic Virtual",
+        "anio": "2023"
+    },
+    {
+        "id":"4",
         "universidad": "Centro De Sistemas De Antioquia, CENSA",
         "carrera": "Técnico En Electrónica Digital",
         "ciudad": "Bello",
         "anio": "2020"
     },
     {
-        "id":"4",
-        "universidad": "Universidad Autónoma De Bucaramanga",
-        "carrera": "Técnico Laboral En Habilidades En Programación Con Enfasis en Aplicaciones Web",
-        "ciudad": "Mision Tic Virtual",
-        "anio": "2023"
-    }
+        "id":"5",
+        "universidad": "Politécnico Iberoamericano",
+        "carrera": "Técnico En Administración De Empresas",
+        "ciudad": "Medellin",
+        "anio": "2010"
+    },
+    
+    
 ]
 
 
