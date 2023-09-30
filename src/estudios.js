@@ -9,7 +9,7 @@ const diplomas = [
     {
         "id":"2",
         "universidad": "Institución Universitaria Digital De Antioquia",
-        "carrera": "Tecnólogia en Desarrollo de Software",
+        "carrera": "Tecnólogo en Desarrollo de Software",
         "ciudad": "Medellin",
         "anio": "2023"
     },
@@ -56,55 +56,69 @@ const certificados = [
     },
     {
         "id":"3",
+        "universidad": "Fast Lane",
+        "carrera": "Curso AWS Cloud Practitioner Essentials",
+        "ciudad": "",
+        "anio": "2023"
+    },
+    {
+        "id":"4",
+        "universidad": "Institución Universitaria Digital De Antioquia",
+        "carrera": "Diplomado En Programación Web",
+        "ciudad": "",
+        "anio": "2023"
+    },
+    {
+        "id":"5",
         "universidad": "Misión Tic, Universidad Sergio Arboleda",
         "carrera": "Diplomado En Desarrollo De Software",
         "ciudad": "",
         "anio": "2022"
     },
     {
-        "id":"4",
+        "id":"6",
         "universidad": "Misión Tic, Universidad Sergio Arboleda",
         "carrera": "Fundamentos De Programacion Con Python",
         "ciudad": "",
         "anio": "2022"
     },
     {
-        "id":"5",
+        "id":"7",
         "universidad": "Misión Tic, Universidad Sergio Arboleda",
         "carrera": "Programacion Básica Con Java",
         "ciudad": "",
         "anio": "2022"
     },
     {
-        "id":"6",
+        "id":"8",
         "universidad": "Platzi",
         "carrera": "Introducción a React.js",
         "ciudad": "",
         "anio": "2022"
     },
     {
-        "id":"7",
+        "id":"9",
         "universidad": "Platzi",
         "carrera": "Curso Básico De JavaScript",
         "ciudad": "",
         "anio": "2022"
     },
     {
-        "id":"8",
+        "id":"10",
         "universidad": "Platzi",
         "carrera": "Curso De Backend con NodeJs:API REST Con Express",
         "ciudad": "",
         "anio": "2022"
     },
     {
-        "id":"9",
+        "id":"11",
         "universidad": "Misión Tic, Universidad Autonoma De Bucaramanga",
         "carrera": "Diplomado En Desarrollo De Aplicaciones Web",
         "ciudad": "",
         "anio": "2022"
     },
     {
-        "id":"10",
+        "id":"12",
         "universidad": "Platzi",
         "carrera": "Curso Profesional de Git Y GitHub",
         "ciudad": "",
