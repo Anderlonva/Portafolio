@@ -123,6 +123,13 @@ const certificados = [
         "carrera": "Curso Profesional de Git Y GitHub",
         "ciudad": "",
         "anio": "2023"
+    },
+    {
+        "id":"13",
+        "universidad": "Platzi",
+        "carrera": "Curso Introducción a la Nube",
+        "ciudad": "",
+        "anio": "2023"
     }
 ]
 
