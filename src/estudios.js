@@ -130,6 +130,13 @@ const certificados = [
         "carrera": "Curso Introducción a la Nube",
         "ciudad": "",
         "anio": "2023"
+    },
+    {
+        "id":"14",
+        "universidad": "Platzi",
+        "carrera": "Curso Introducción a AWS: Fundamentos del Cloud Computing",
+        "ciudad": "",
+        "anio": "2023"
     }
 ]
 
