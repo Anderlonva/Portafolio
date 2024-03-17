@@ -1,10 +1,10 @@
 const diplomas = [
     {
         "id":"1",
-        "universidad": "Corporación Universitaria Iberoamericana",
-        "carrera": "Ingeniería De Software",
+        "universidad": "Institución Universitaria Digital De Antioquia",
+        "carrera": "Ingeniería De Software y Datos",
         "ciudad": "Medellin",
-        "anio": "Actualmente 5 semestre"
+        "anio": "Actualmente 7 semestre"
     },
     {
         "id":"2",
