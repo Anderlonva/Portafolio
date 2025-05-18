@@ -4,7 +4,7 @@ const diplomas = [
         "universidad": "Institución Universitaria Digital De Antioquia",
         "carrera": "Ingeniería De Software y Datos",
         "ciudad": "Medellin",
-        "anio": "Actualmente 7 semestre"
+        "anio": "Actualmente 9 semestre"
     },
     {
         "id":"2",
@@ -137,6 +137,20 @@ const certificados = [
         "carrera": "Curso Introducción a AWS: Fundamentos del Cloud Computing",
         "ciudad": "",
         "anio": "2023"
+    },
+    {
+        "id":"15",
+        "universidad": "Coursera",
+        "carrera": "Certificado de Ciberseguridad de Google",
+        "ciudad": "",
+        "anio": "2024"
+    },
+    {
+        "id":"16",
+        "universidad": "Amazon Web Services (AWS)",
+        "carrera": "AWS Academy Graduate - AWS Academy Cloud Foundations",
+        "ciudad": "",
+        "anio": "2025"
     }
 ]
 
