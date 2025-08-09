@@ -10,8 +10,8 @@ import React from 'react'
 export const App = () => {
   return (
     <>
-      <Header/>
       <Router>
+      <Header/>
         <Switch>
           <Route exact path="/" component={Principal} />
           <Route exact path="/proyectos" component={Proyectos} />

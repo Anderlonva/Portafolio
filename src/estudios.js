@@ -4,7 +4,7 @@ const diplomas = [
         "universidad": "Institución Universitaria Digital De Antioquia",
         "carrera": "Ingeniería De Software y Datos",
         "ciudad": "Medellin",
-        "anio": "Actualmente 9 semestre"
+        "anio": "2025"
     },
     {
         "id":"2",
@@ -16,7 +16,7 @@ const diplomas = [
     {
         "id":"3",
         "universidad": "Universidad Autónoma De Bucaramanga",
-        "carrera": "Técnico Laboral En Habilidades En Programación Con Enfasis en Aplicaciones Web",
+        "carrera": "Técnico Laboral En Programación Con Enfasis en Aplicaciones Web",
         "ciudad": "Mision Tic Virtual",
         "anio": "2023"
     },

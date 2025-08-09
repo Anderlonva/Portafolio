@@ -1,61 +1,98 @@
-import React from 'react'
-import foto from '../img/android-chrome-512x512.png'
+import React from 'react';
+import foto from '../img/android-chrome-512x512.png';
+import cvPDF from '../img/CV_portafolio_Anderson_Londoño.pdf'
+import { FaGithub, FaLinkedin, FaFileDownload, FaAws, FaRobot, FaDatabase, FaCode } from 'react-icons/fa';
+import { SiAwslambda, SiJest, SiCypress, SiPostgresql, SiMongodb } from 'react-icons/si';
+import { DiScrum } from 'react-icons/di';
+import { FiDatabase } from 'react-icons/fi';
 
 export const Principal = () => {
   return (
-    <div className='container margin-container'>
-      <div className='row mt-2'>
-        <div className='col text-center'>
-          <h1>Anderson Londoño Valencia</h1>
-        </div>
-      </div>
-      <div className='row align-items-center'>
-        <div className='col-lg-6 col-md-12 mt-3 text-center'>
-          <img src={foto} className="foto-principal" alt="..." />
-        </div>
+    <section id="about" className="py-5 about-section">
+      <div className="container mt-10 mb-10">
+        <div className="row align-items-center">
+          <div className="col-lg-5 text-center mb-4 mb-lg-0">
+            <div className="profile-img-container">
+              <img src={foto} className="profile-img" alt="Anderson Londoño" />
+              <div className="img-overlay"></div>
+            </div>
+          </div>
 
-        <div className='col-lg-6 col-md-12 mt-5 text-center'>
-          <hr className='' />
-          <div className='row'>
-            <div className='col'>
-              <p> Soy un estudiante apasionado de ingeniería de software con un enfoque especializado en bases de datos relacionales y no relacionales, así como en desarrollo web.
-                Mi compromiso constante es ampliar mis conocimientos y mejorar mis habilidades tecnológicas.<br/> Actualmente, me encuentro estudiando ingeniería de software, donde he adquirido sólidos conocimientos en programación frontend utilizando HTML, CSS y JavaScript. Además, he trabajado con frameworks como Bootstrap, Materialize y la libreria de React, lo que me ha permitido crear experiencias web atractivas y funcionales.<br/>
-                En el ámbito del backend, cuento con habilidades en Node.js, java Spring Boot, y tengo experiencia en la creación de servicios utilizando Oracle Cloud. Estoy siempre dispuesto a ampliar mis conocimientos en estas áreas y a aprender nuevas tecnologías relevantes para el crecimiento de las compañías.<br/>
-                Además de mis habilidades técnicas, también poseo conocimiento en la metodología de trabajo ágil Scrum. Estoy familiarizado con el enfoque colaborativo y la organización eficiente que esta metodología proporciona, lo cual considero esencial para el desarrollo de proyectos exitosos en el sector de TI.<br/>
-                Además de mis estudios regulares, he realizado un curso introductorio a AWS, específicamente el AWS Cloud Practitioner Essential. Este curso me ha dado una comprensión fundamental de los servicios en la nube de AWS y siento una gran motivación para buscar la certificación en un futuro cercano.<br/>
-                También participé activamente en las campañas del gobierno conocidas como Misión Tic. Durante mi participación, me enfoqué en el desarrollo de aplicaciones utilizando Java con Spring Boot para el backend y React para el frontend. Esta experiencia me permitió aplicar mis habilidades técnicas en un entorno práctico.<br/>
-                En todo mi recorrido estudiantil también he tenido la suerte de tener contacto con el manejo de motores de bases de datos relacionales como Postgres, MySQL Workbench y SQL Server. También he trabajado con bases de datos no relacionales utilizando MongoDB Atlas.<br/>
-                Soy una persona dedicada, apasionada por la tecnología y comprometida con el aprendizaje continuo. Estoy emocionado por la oportunidad de contribuir a proyectos desafiantes y seguir desarrollándome en el campo de la ingeniería de software.
+          <div className="col-lg-7">
+            <h1 className="display-4 mb-4 mt-4 text-center">Anderson Londoño Valencia</h1>
+            <h3 className="text-primary mb-4 text-center">Ingeniero de Software | Especialista en Calidad</h3>
 
+            <div className="d-flex flex-wrap mb-4 justify-content-center">
+              <div className="tech-badge me-2 mb-2">
+                <SiCypress className="me-1" /> Cypress
+              </div>
+              <div className="tech-badge me-2 mb-2">
+                <SiJest className="me-1" /> Testing
+              </div>
+              <div className="tech-badge me-2 mb-2">
+                <FaRobot className="me-1" /> IA aplicada
+              </div>
+              <div className="tech-badge me-2 mb-2">
+                <DiScrum className="me-1" /> Scrum
+              </div>
+              <div className="tech-badge me-2 mb-2">
+                <FiDatabase className="me-1" /> Bases de Datos
+              </div>
+              <div className="tech-badge me-2 mb-2">
+                <SiAwslambda className="me-1" /> AWS
+              </div>
+            </div>
+
+            <div className="about-content text-center">
+
+              <p className="lead">
+                Apasionado por construir software de calidad mediante automatización inteligente y prácticas modernas de testing.
               </p>
+
+              <ul className="tech-list list-none">
+                <li>
+                  <FaCode className="text-primary" />
+                  <strong> Enfoque técnico:</strong> Combino desarrollo full-stack con especialización en QA
+                </li>
+                <li>
+                  <FaRobot className="text-primary" />
+                  <strong> Innovación:</strong> Implemento LLMs para la generación de casos de prueba y la optimización de procesos
+                </li>
+
+              </ul>
+
+              <p className="">
+                Como ingeniero de software con sólidos conocimientos en desarrollo full-stack, he encontrado mi 
+                verdadera pasión en el aseguramiento de calidad y la automatización de pruebas.
+              </p>
+
+              <p>
+                Además de mis habilidades técnicas, también poseo conocimiento en la metodología de trabajo ágil Scrum. Estoy familiarizado 
+                con el enfoque colaborativo y la organización eficiente que esta metodología proporciona, lo cual considero esencial para el 
+                desarrollo de proyectos exitosos en el sector de TI.
+              </p>
+
+              <p>
+                Soy dedicado, apasionado por la tecnología y comprometido con el aprendizaje continuo. Estoy emocionado por la 
+                oportunidad de contribuir a proyectos desafiantes y seguir desarrollándome en el campo de la ingeniería de software.
+              </p>
+
             </div>
-          </div>
 
-          <hr className='' />
-
-          <div className='row flex-row justify-content-center'>
-
-            <div className='col-1 d-inline-flex'>
-              <a href="https://github.com/Anderlonva" className="contenedor-icon-gitHub" target="_blank">
-                <i class="bi bi-github"></i>
+            <div className="social-links mt-5 justify-content-center">
+              <a href="https://github.com/Anderlonva" target="_blank" rel="noopener noreferrer" className="social-link">
+                <FaGithub className="social-icon" />
+              </a>
+              <a href="https://www.linkedin.com/in/anderson-londono-669094218/" target="_blank" rel="noopener noreferrer" className="social-link">
+                <FaLinkedin className="social-icon" />
+              </a>
+              <a href={cvPDF} download className="btn btn-primary ms-3">
+                <FaFileDownload className="me-2" /> Descargar CV
               </a>
             </div>
-
-
-
-            <div className='col-1 d-inline-flex mx-2 mb-2'>
-
-              <a href="https://www.linkedin.com/in/anderson-londono-669094218/" className="contenedor-icon-linkedin" target="_blank">
-                <i class="bi bi-linkedin"></i>
-              </a>
-            </div>
-
-
-
           </div>
         </div>
       </div>
-    </div>
-
-  )
-}
+    </section>
+  );
+};
