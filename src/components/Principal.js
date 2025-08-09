@@ -1,15 +1,15 @@
 import React from 'react';
 import foto from '../img/android-chrome-512x512.png';
 import cvPDF from '../img/CV_portafolio_Anderson_Londoño.pdf'
-import { FaGithub, FaLinkedin, FaFileDownload, FaAws, FaRobot, FaDatabase, FaCode } from 'react-icons/fa';
-import { SiAwslambda, SiJest, SiCypress, SiPostgresql, SiMongodb } from 'react-icons/si';
+import { FaGithub, FaLinkedin, FaFileDownload, FaAws, FaRobot, FaDatabase, FaCode, FaNodeJs, FaGithubSquare } from 'react-icons/fa';
+import { SiAwslambda, SiJest, SiCypress, SiPostgresql, SiMongodb, SiReact } from 'react-icons/si';
 import { DiScrum } from 'react-icons/di';
 import { FiDatabase } from 'react-icons/fi';
 
 export const Principal = () => {
   return (
     <section id="about" className="py-5 about-section">
-      <div className="container mt-10 mb-10">
+      <div className="container mt-10">
         <div className="row align-items-center">
           <div className="col-lg-5 text-center mb-4 mb-lg-0">
             <div className="profile-img-container">
@@ -39,8 +39,18 @@ export const Principal = () => {
                 <FiDatabase className="me-1" /> Bases de Datos
               </div>
               <div className="tech-badge me-2 mb-2">
+                <SiReact className="me-1" /> React
+              </div>
+              <div className="tech-badge me-2 mb-2">
+                <FaNodeJs className="me-1" /> Node.js
+              </div>
+              <div className="tech-badge me-2 mb-2">
+                <FaGithubSquare className="me-1" /> Git y GitHub
+              </div>
+              <div className="tech-badge me-2 mb-2">
                 <SiAwslambda className="me-1" /> AWS
               </div>
+              
             </div>
 
             <div className="about-content text-center">
