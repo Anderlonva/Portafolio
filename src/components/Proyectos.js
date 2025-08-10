@@ -82,7 +82,7 @@ export const Proyectos = () => {
       id: 7,
       title: "Tienda de Rines",
       image: rines,
-      description: "E-commerce especializado en rines para automóviles con carrito de compras.",
+      description: "Pagina web para tienda de rines de automóviles.",
       technologies: ["HTML5", "Css", "Bootstrap"],
       githubLink: "https://github.com/Anderlonva/Proyecto_rines.git",
       demoLink: "#"
@@ -100,7 +100,7 @@ export const Proyectos = () => {
       id: 9,
       title: "App de Tareas",
       image: todos,
-      description: "Aplicación para gestión de tareas con recordatorios y categorías.",
+      description: "Aplicación para gestión de tareas por hacer.",
       technologies: ["Vue.js", "HTML5", "Css"],
       githubLink: "https://github.com/Anderlonva/ToDos-en-Vue.git",
       demoLink: "#"

@@ -20,7 +20,8 @@ export const Principal = () => {
 
           <div className="col-lg-7">
             <h1 className="display-4 mb-4 mt-4 text-center">Anderson Londoño Valencia</h1>
-            <h3 className="text-primary mb-4 text-center">Ingeniero de Software | Especialista en Calidad</h3>
+            <h3 className="text-primary mb-4 text-center">Ingeniero de Software</h3>
+            <h4 className="text-primary mb-4 text-center"> Tester QA</h4>
 
             <div className="d-flex flex-wrap mb-4 justify-content-center">
               <div className="tech-badge me-2 mb-2">
