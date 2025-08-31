@@ -1,17 +1,18 @@
 const diplomas = [
+    
     {
         "id":"1",
-        "universidad": "Institución Universitaria Digital De Antioquia",
-        "carrera": "Ingeniería De Software y Datos",
+        "universidad": "Politécnico Iberoamericano",
+        "carrera": "Técnico En Administración De Empresas",
         "ciudad": "Medellin",
-        "anio": "2025"
+        "anio": "2010"
     },
     {
         "id":"2",
-        "universidad": "Institución Universitaria Digital De Antioquia",
-        "carrera": "Tecnólogo en Desarrollo de Software",
-        "ciudad": "Medellin",
-        "anio": "2023"
+        "universidad": "Centro De Sistemas De Antioquia, CENSA",
+        "carrera": "Técnico En Electrónica Digital",
+        "ciudad": "Bello",
+        "anio": "2020"
     },
     {
         "id":"3",
@@ -22,51 +23,52 @@ const diplomas = [
     },
     {
         "id":"4",
-        "universidad": "Centro De Sistemas De Antioquia, CENSA",
-        "carrera": "Técnico En Electrónica Digital",
-        "ciudad": "Bello",
-        "anio": "2020"
+        "universidad": "Institución Universitaria Digital De Antioquia",
+        "carrera": "Tecnólogo en Desarrollo de Software",
+        "ciudad": "Medellin",
+        "anio": "2023"
     },
     {
         "id":"5",
-        "universidad": "Politécnico Iberoamericano",
-        "carrera": "Técnico En Administración De Empresas",
+        "universidad": "Institución Universitaria Digital De Antioquia",
+        "carrera": "Ingeniería De Software y Datos",
         "ciudad": "Medellin",
-        "anio": "2010"
+        "anio": "2025"
     },
-    
     
 ]
 
 
 const certificados = [
+
     {
         "id":"1",
-        "universidad": "Next_U",
-        "carrera": "Certificación Bases De Datos Web",
-        "ciudad": "",
-        "anio": "2022"
-    },
-    {
-        "id":"2",
         "universidad": "Next_U",
         "carrera": "Certificación En Curso Intensivo Web Front End",
         "ciudad": "",
         "anio": "2021"
     },
     {
-        "id":"3",
-        "universidad": "Fast Lane",
-        "carrera": "Curso AWS Cloud Practitioner Essentials",
+        "id":"2",
+        "universidad": "Next_U",
+        "carrera": "Certificación Bases De Datos Web",
         "ciudad": "",
-        "anio": "2023"
+        "anio": "2022"
+    },
+    
+    {
+        "id":"3",
+        "universidad": "Platzi",
+        "carrera": "Curso De Backend con NodeJs:API REST Con Express",
+        "ciudad": "",
+        "anio": "2022"
     },
     {
         "id":"4",
-        "universidad": "Institución Universitaria Digital De Antioquia",
-        "carrera": "Diplomado En Programación Web",
+        "universidad": "Misión Tic, Universidad Autonoma De Bucaramanga",
+        "carrera": "Diplomado En Desarrollo De Aplicaciones Web",
         "ciudad": "",
-        "anio": "2023"
+        "anio": "2022"
     },
     {
         "id":"5",
@@ -105,17 +107,17 @@ const certificados = [
     },
     {
         "id":"10",
-        "universidad": "Platzi",
-        "carrera": "Curso De Backend con NodeJs:API REST Con Express",
+        "universidad": "Fast Lane",
+        "carrera": "Curso AWS Cloud Practitioner Essentials",
         "ciudad": "",
-        "anio": "2022"
+        "anio": "2023"
     },
     {
         "id":"11",
-        "universidad": "Misión Tic, Universidad Autonoma De Bucaramanga",
-        "carrera": "Diplomado En Desarrollo De Aplicaciones Web",
+        "universidad": "Institución Universitaria Digital De Antioquia",
+        "carrera": "Diplomado En Programación Web",
         "ciudad": "",
-        "anio": "2022"
+        "anio": "2023"
     },
     {
         "id":"12",
@@ -149,6 +151,13 @@ const certificados = [
         "id":"16",
         "universidad": "Amazon Web Services (AWS)",
         "carrera": "AWS Academy Graduate - AWS Academy Cloud Foundations",
+        "ciudad": "",
+        "anio": "2025"
+    },
+    {
+        "id":"17",
+        "universidad": "Udemy",
+        "carrera": "Software Testing desde cero: MasterClass",
         "ciudad": "",
         "anio": "2025"
     }

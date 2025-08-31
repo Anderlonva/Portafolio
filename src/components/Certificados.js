@@ -30,7 +30,7 @@ export const Certificados = () => {
               </div>
               <div className="card-body">
                 <VerticalTimeline layout="1-column">
-                  {arrDiplomas.map((diploma) => (
+                  {arrDiplomas.sort((a, b) => b.id - a.id).map((diploma) => (
                     <VerticalTimelineElement
                       key={diploma.id}
                       className="vertical-timeline-element--education"
@@ -58,7 +58,7 @@ export const Certificados = () => {
               </div>
               <div className="card-body">
                 <VerticalTimeline layout="1-column">
-                  {arrCertificados.map((certificado) => (
+                  {arrCertificados.sort((a, b) => b.id - a.id).map((certificado) => (
                     <VerticalTimelineElement
                       key={certificado.id}
                       className="vertical-timeline-element--certification"
