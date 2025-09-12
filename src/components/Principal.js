@@ -1,5 +1,6 @@
 import React from 'react';
 import foto from '../img/android-chrome-512x512.png';
+import foto2 from '../img/perfil_web.jpg';
 import cvPDF from '../img/CV_portafolio_Anderson_Londoño.pdf'
 import { FaGithub, FaLinkedin, FaFileDownload, FaAws, FaRobot, FaDatabase, FaCode, FaNodeJs, FaGithubSquare } from 'react-icons/fa';
 import { SiAwslambda, SiJest, SiCypress, SiPostgresql, SiMongodb, SiReact } from 'react-icons/si';
@@ -13,7 +14,7 @@ export const Principal = () => {
         <div className="row align-items-center">
           <div className="col-lg-5 text-center mb-4 mb-lg-0">
             <div className="profile-img-container">
-              <img src={foto} className="profile-img" alt="Anderson Londoño" />
+              <img src={foto2} className="profile-img" alt="Anderson Londoño" />
               <div className="img-overlay"></div>
             </div>
           </div>
@@ -67,7 +68,7 @@ export const Principal = () => {
                 </li>
                 <li>
                   <FaRobot className="text-primary" />
-                  <strong> Innovación:</strong> Implemento LLMs para la generación de casos de prueba y la optimización de procesos
+                  <strong> Innovación:</strong> Implemento LLMs para la optimización de procesos
                 </li>
 
               </ul>

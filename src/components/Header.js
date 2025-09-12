@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import logo from '../img/Logo.jpg';
+import logo2 from '../img/logo_web.png';
 import cvPDF from '../img/CV_portafolio_Anderson_Londoño.pdf'
 
 export const Header = () => {
@@ -27,7 +28,7 @@ export const Header = () => {
           <div className="container-fluid">
             <RouterLink to="/" className="navbar-brand">
               <img 
-                src={logo} 
+                src={logo2} 
                 alt="Anderson Londoño - Desarrollador Full Stack" 
                 className="logo-img" 
                 style={{ height: scrolled ? '45px' : '60px', transition: 'all 0.3s ease' }} 
