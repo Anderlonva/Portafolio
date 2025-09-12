@@ -160,6 +160,13 @@ const certificados = [
         "carrera": "Software Testing desde cero: MasterClass",
         "ciudad": "",
         "anio": "2025"
+    },
+    {
+        "id":"18",
+        "universidad": "SENA - Servicio Nacional De Aprendizaje",
+        "carrera": "Manejo de pruebas de software",
+        "ciudad": "",
+        "anio": "2025"
     }
 ]
 
